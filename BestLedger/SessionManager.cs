@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BestLedger
 {
@@ -60,14 +58,13 @@ namespace BestLedger
 
                 if (choice == 1)
                 {
-                    do
-                    {
-                        string username = displayManager.GetUserName();
-                        string password = displayManager.GetPassword();
-                        Console.Clear();
-                        user = accountManager.Login(username, password);
-                    } while (user == null);
-                    StartSession();
+                    string username = displayManager.GetUserName();
+                    string password = displayManager.GetPassword();
+                    Console.Clear();
+                    user = accountManager.Login(username, password);
+                    
+                    if (user != null)
+                        StartSession();
                 }
                 else if (choice == 2)
                 {
