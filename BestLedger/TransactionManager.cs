@@ -72,6 +72,8 @@ namespace BestLedger
          **/
         public void SaveTransaction(Account user, Transaction transaction)
         {
+            // Create directory for transactions if it doesn't exist
+            Directory.CreateDirectory($"{path}/Transactions");
             transactions.Add(transaction);
             string json = JsonConvert.SerializeObject(transactions);
             string fileName = $"{user.Username}-transactions.json";

@@ -20,3 +20,14 @@ C:\Users\deckl\Desktop\Best-Ledger-Solutions\BestLedger\obj\Debug\netcoreapp2.1\
 C:\Users\deckl\Desktop\Best-Ledger-Solutions\BestLedger\obj\Debug\netcoreapp2.1\BestLedger.AssemblyInfo.cs
 C:\Users\deckl\Desktop\Best-Ledger-Solutions\BestLedger\obj\Debug\netcoreapp2.1\BestLedger.dll
 C:\Users\deckl\Desktop\Best-Ledger-Solutions\BestLedger\obj\Debug\netcoreapp2.1\BestLedger.pdb
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\bin\Debug\netcoreapp2.1\BestLedger.deps.json
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\bin\Debug\netcoreapp2.1\BestLedger.runtimeconfig.json
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\bin\Debug\netcoreapp2.1\BestLedger.runtimeconfig.dev.json
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\bin\Debug\netcoreapp2.1\BestLedger.dll
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\bin\Debug\netcoreapp2.1\BestLedger.pdb
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\obj\Debug\netcoreapp2.1\BestLedger.csprojResolveAssemblyReference.cache
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\obj\Debug\netcoreapp2.1\BestLedger.csproj.CoreCompileInputs.cache
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\obj\Debug\netcoreapp2.1\BestLedger.AssemblyInfoInputs.cache
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\obj\Debug\netcoreapp2.1\BestLedger.AssemblyInfo.cs
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\obj\Debug\netcoreapp2.1\BestLedger.dll
+C:\Users\deckl\Desktop\Test\Best-Ledger-Solutions\BestLedger\obj\Debug\netcoreapp2.1\BestLedger.pdb

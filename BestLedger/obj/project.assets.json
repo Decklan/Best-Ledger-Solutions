@@ -749,11 +749,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\deckl\\Desktop\\Best-Ledger-Solutions\\BestLedger\\BestLedger.csproj",
+      "projectUniqueName": "C:\\Users\\deckl\\Desktop\\Test\\Best-Ledger-Solutions\\BestLedger\\BestLedger.csproj",
       "projectName": "BestLedger",
-      "projectPath": "C:\\Users\\deckl\\Desktop\\Best-Ledger-Solutions\\BestLedger\\BestLedger.csproj",
+      "projectPath": "C:\\Users\\deckl\\Desktop\\Test\\Best-Ledger-Solutions\\BestLedger\\BestLedger.csproj",
       "packagesPath": "C:\\Users\\deckl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\deckl\\Desktop\\Best-Ledger-Solutions\\BestLedger\\obj\\",
+      "outputPath": "C:\\Users\\deckl\\Desktop\\Test\\Best-Ledger-Solutions\\BestLedger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

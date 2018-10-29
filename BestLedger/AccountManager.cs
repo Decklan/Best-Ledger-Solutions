@@ -72,6 +72,9 @@ namespace BestLedger
         {
             try
             {
+                // Create directory for file storage if it doesn't exist
+                Directory.CreateDirectory($"{path}/Users");
+
                 string hash = BCrypt.Net.BCrypt.HashPassword(password);
 
                 Account newAccount = new Account
