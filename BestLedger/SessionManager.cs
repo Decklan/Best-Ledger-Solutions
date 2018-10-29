@@ -62,10 +62,8 @@ namespace BestLedger
                 {
                     do
                     {
-                        Console.Write("Username: ");
-                        string username = Console.ReadLine();
-                        Console.Write("Password: ");
-                        string password = Console.ReadLine();
+                        string username = displayManager.GetUserName();
+                        string password = displayManager.GetPassword();
                         Console.Clear();
                         user = accountManager.Login(username, password);
                     } while (user == null);
@@ -74,10 +72,8 @@ namespace BestLedger
                 else if (choice == 2)
                 {
                     Console.WriteLine("We're glad you decided to open an account with us. Create a username and password.");
-                    Console.Write("Username: ");
-                    string username = Console.ReadLine();
-                    Console.Write("Password: ");
-                    string password = Console.ReadLine();
+                    string username = displayManager.GetUserName();
+                    string password = displayManager.GetPassword();
                     Console.Clear();
                     accountManager.CreateAccount(username, password);
                 }

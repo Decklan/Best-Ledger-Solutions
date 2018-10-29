@@ -5,7 +5,10 @@ using Newtonsoft.Json;
 
 namespace BestLedger
 {
-    // Manages transaction logic while a user is logged in
+    /** 
+     * Manages transaction logic while a user is logged in. Saving a transaction,
+     * listing transactions, getting a user's transactions, etc
+     **/
     class TransactionManager
     {
         private string path = Directory.GetParent(@"./").FullName; // Project path
@@ -26,7 +29,7 @@ namespace BestLedger
          **/
         public List<Transaction> FetchTransactions(Account user)
         {
-            string fileName = $"{user.Username}Transactions.json";
+            string fileName = $"{user.Username}-transactions.json";
             
             try
             {
@@ -71,7 +74,7 @@ namespace BestLedger
         {
             transactions.Add(transaction);
             string json = JsonConvert.SerializeObject(transactions);
-            string fileName = $"{user.Username}Transactions.json";
+            string fileName = $"{user.Username}-transactions.json";
             File.WriteAllText(path + $"/Transactions/{fileName}", json);
         }
     }

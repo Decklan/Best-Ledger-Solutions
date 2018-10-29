@@ -2,6 +2,9 @@
 
 namespace BestLedger
 {
+    /** 
+     * Handles various displaying of information to the user 
+     **/
     class DisplayManager
     {
         public DisplayManager() { }
@@ -21,6 +24,18 @@ namespace BestLedger
             Console.WriteLine("3. Transaction History");
             Console.WriteLine("4. Logout");
             Console.Write("Enter a choice: ");
+        }
+
+        public string GetUserName()
+        {
+            Console.Write("Username: ");
+            return Console.ReadLine();
+        }
+
+        public string GetPassword()
+        {
+            Console.Write("Password: ");
+            return Console.ReadLine();
         }
 
         public int GetMenuChoice()
