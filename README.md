@@ -29,6 +29,7 @@ This project is a fairly basic implementation of the problem at hand. As such th
 * Refactor code to ensure that things are being done in the appropriate place
 * Implementing a database to store user and transaction information
 * Use a salt on top of hashing user passwords to further strengthen the application against attackers looking to get user passwords
+* Add Unit Testing for the application to ensure that all functions/paths of execution in the application are covered.
 
 ### Other Mentions
 Please feel free to look through my other public repositories to see some of the other projects that I have worked on. In particular:
