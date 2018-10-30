@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace BestLedger
 {
@@ -68,10 +69,25 @@ namespace BestLedger
                 }
                 else if (choice == 2)
                 {
-                    Console.WriteLine("We're glad you decided to open an account with us. Create a username and password.");
-                    string username = displayManager.GetUserName();
-                    string password = displayManager.GetPassword();
-                    Console.Clear();
+                    Console.WriteLine("We're glad you decided to open an account with Best Ledger. Please enter a username and password.");
+                    string username;
+                    string password;
+                    bool userExists;
+                    do
+                    {
+                        username = displayManager.GetUserName();
+                        password = displayManager.GetPassword();
+                        Console.Clear();
+
+                        userExists = File.Exists(Directory.GetParent(@"./").FullName + "/Users/" + username + ".json");
+
+                        // Check for a valid username and password
+                        if (username == "" || password == "")
+                            Console.WriteLine("Please enter a valid username and password.");
+                        // Check to see if the username already exists so we don't overwrite an existing user
+                        else if (userExists)
+                            Console.WriteLine("This username already exists. Please choose a different username.");
+                    } while (username == "" || password == "" || userExists);
                     accountManager.CreateAccount(username, password);
                 }
             } while (choice != 3);
