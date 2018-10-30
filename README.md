@@ -31,4 +31,9 @@ This project is a fairly basic implementation of the problem at hand. As such th
 * Use a salt on top of hashing user passwords to further strengthen the application against attackers looking to get user passwords
 
 ### Other Mentions
-Please feel free to look through my other public repositories to see some of the other projects that I have worked on. 
+Please feel free to look through my other public repositories to see some of the other projects that I have worked on. In particular:
+[a link](https://github.com/cs-capstone-team-c/synchrolean-server)
+Implemented UnitOfWork and Repository pattern in the application as well as worked on many of the various Controllers and Repositories used.
+
+[a link](https://github.com/cs-capstone-team-c/synchrolean-web-app)
+Designed and developed most of the front end in accordance with what the sponser wanted.
